@@ -10,6 +10,7 @@ This a test SIR model based on Ottar's book code from chapter 2. It's a simple S
 \frac{dR}{dt} &= \gamma I - \mu R
 \end{align}
 ```
+This uses fractionla populations
 
 ```math
 \begin{align}
@@ -17,9 +18,9 @@ This a test SIR model based on Ottar's book code from chapter 2. It's a simple S
 \beta &= 2 \\
 \gamma &= \frac{1}{2} \\\\
 
-N &= 1000 \\
-S_0 &= 999.0 \\
-I_0 &= 1.0 \\
+N &= 1 \\
+S_0 &= 0.9990 \\
+I_0 &= 0.01 \\
 R_0 &= 0.0
 \end{align}
 ```
