@@ -3,6 +3,8 @@
 
 This a test SIR model based on Ottar's book code from chapter 2. It's a simple SIR model with births and deaths.
 
+This is a test to see if SSH keys are working on my personal laptop.
+
 ```math
 \begin{align}
 \frac{dS}{dt} &= \mu (N - S) -\beta S \frac{I}{N} \\
